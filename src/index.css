@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Tegascraft;
+  src: url(../src/assets/fonts/Tagesschrift-Regular.ttf);
+}
+@font-face {
+  font-family: Geist Mono;
+  src: url(../src/assets/fonts/Geist\ Mono.ttf);
+}
+@font-face {
+  font-family: Geist;
+  src: url(../src/assets/fonts/Geist.ttf);
+}
+
+@import "tailwindcss";
+:root {
+  background-color: var(--color-gray-800)
+}
+
+@theme{
+  --font-tegascraft: tegascraft, sans-serif;
+}
+@theme{
+  --font-geistmono: geistmono, sans-serif;
+}
+@theme{
+  --font-geist: geist, sans-serif;
+}
